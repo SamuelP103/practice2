@@ -1,0 +1,21 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 37px);
+}
+.num1{
+    width: 50%;
+    flex: 8;
+    
+    background-color: rgb(95, 180, 255);
+
+}
+.num2 {
+    width: 50%;
+    flex: 6;
+    background-color: rgb(115, 115, 232);
+
+}
+.num1 h1, .num2 h1{
+    text-align: center;
+}
